@@ -69,12 +69,12 @@ dns:
       - '+.facebook.com'
       - '+.youtube.com'
 
-cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+# cfw-latency-timeout: 3000
+# cfw-latency-url: http://www.gstatic.com/generate_204
 
-cfw-conn-break-strategy:
-  proxy: none # none/chain/all
-  profile: true # true/false
-  mode: false # true/false
+# cfw-conn-break-strategy:
+#   proxy: none # none/chain/all
+#   profile: true # true/false
+#   mode: false # true/false
 
-cfw-proxies-order: alphabet
+# cfw-proxies-order: alphabet
